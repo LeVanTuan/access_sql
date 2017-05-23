@@ -10,25 +10,25 @@ Fix bug access denied on mac osx 10.12
 
 - Then type follow below:
 
-export PATH=$PATH:/usr/local/mysql/bin/
+    export PATH=$PATH:/usr/local/mysql/bin/
 
-sudo mysqld_safe --skip-grant-tables
+    sudo mysqld_safe --skip-grant-tables
 
-then, restart Terminal (quit then open again)
+    then, restart Terminal (quit then open again)
 
-then, keep type:
+    then, keep type:
 
-export PATH=$PATH:/usr/local/mysql/bin/
+    export PATH=$PATH:/usr/local/mysql/bin/
 
-mysql -u root mysql   
+    mysql -u root mysql   
 
-FLUSH PRIVILEGES;
+    FLUSH PRIVILEGES;
 
-ALTER USER 'root'@'localhost' IDENTIFIED BY '123456';
+    ALTER USER 'root'@'localhost' IDENTIFIED BY '123456';
 
-\q
+    \q
 
-sudo /usr/local/mysql/support-files/mysql.server start
+    sudo /usr/local/mysql/support-files/mysql.server start
 
 
 - extra:
