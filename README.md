@@ -1,5 +1,7 @@
 # access_sql
 
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES/NO)
+
 Fix bug access denied on macos 10.12 (Sierra)
 
 1. install mysql (https://dev.mysql.com/downloads/mysql/)
