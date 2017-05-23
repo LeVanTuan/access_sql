@@ -31,7 +31,7 @@ Fix bug access denied on mac osx 10.12 (Sierra)
     sudo /usr/local/mysql/support-files/mysql.server start
 
 
-- extra:
+3. extra:
 
  + start mysql:
      sudo /usr/local/mysql/bin/mysqld_safe --skip-grant-tables
