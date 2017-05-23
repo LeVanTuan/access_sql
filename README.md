@@ -1,6 +1,6 @@
 # access_sql
 
-Fix bug access denied on mac osx 10.12
+Fix bug access denied on mac osx 10.12 (Sierra)
 
 1. install mysql (https://dev.mysql.com/downloads/mysql/)
 
